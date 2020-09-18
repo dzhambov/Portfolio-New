@@ -321,9 +321,11 @@ img {
       grid-gap: 1.2rem;
       margin-bottom: 1.2rem;
 
+
       // Grid Areas
       .name-input {
         grid-area: name;
+
       }
 
       .subject-input {
@@ -345,11 +347,27 @@ img {
 
       .text-input {
         padding: 0.5rem 1rem;
+        outline: none;
       }
     }
 
     button[type='submit'] {
       width: 50%;
+    }
+  }
+
+  &-b {
+    .contact-info {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      text-align: center;
+    }
+  }
+
+  &-c {
+    h1 {
+      text-align: center;
+      font-size: 4rem;
     }
   }
 }
