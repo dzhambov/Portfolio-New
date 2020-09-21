@@ -92,7 +92,9 @@ input[class^='btn-']:hover {
 
 .items {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 4rem;
+  margin-bottom: 3rem;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3); }
 
 .item {
@@ -154,6 +156,8 @@ input[class^='btn-']:hover {
     top: 50%;
     transform: translateY(-50%); }
   .item-text-title {
+    text-transform: uppercase;
+    color: #fff;
     font-size: 2rem;
     padding: 0 1rem;
     margin: 5px 0 0 0; }
@@ -391,10 +395,6 @@ img {
 #contact-c h1 {
   text-align: center;
   font-size: 4rem; }
-
-#work-a .items {
-  margin-top: 4rem;
-  margin-bottom: 4rem; }
 
 #main-footer {
   background: #333;
