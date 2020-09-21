@@ -104,6 +104,8 @@ img {
 
 // Home Sections
 #home {
+
+  // Home Section A
   &-a {
     .specials {
       margin-top: 3rem;
@@ -311,6 +313,8 @@ img {
 
 // Contact Page
 #contact {
+
+  // Section A
   &-a {
     .text-fields {
       display: grid;
@@ -356,19 +360,33 @@ img {
     }
   }
 
+  // Section B
   &-b {
     .contact-info {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       text-align: center;
+
+      a {
+        color: #fff;
+      }
     }
   }
 
+  // Section C
   &-c {
     h1 {
       text-align: center;
       font-size: 4rem;
     }
+  }
+}
+
+// Work Page
+#work-a {
+  .items {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
   }
 }
 
