@@ -16,7 +16,7 @@
     position: absolute;
     display: block;
     background: inherit;
-    opacity: 0.9;
+    opacity: 0.8;
     top: 0;
     left: 0;
     width: 100%;
@@ -92,6 +92,10 @@
     font-size: 2rem;
     padding: 0 1rem;
     margin: 5px 0 0 0;
+
+    &:hover {
+      color: $dark-color;
+    }
   }
 
   &-text-category {

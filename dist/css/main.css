@@ -106,7 +106,7 @@ input[class^='btn-']:hover {
     position: absolute;
     display: block;
     background: inherit;
-    opacity: 0.9;
+    opacity: 0.8;
     top: 0;
     left: 0;
     width: 100%;
@@ -161,6 +161,8 @@ input[class^='btn-']:hover {
     font-size: 2rem;
     padding: 0 1rem;
     margin: 5px 0 0 0; }
+    .item-text-title:hover {
+      color: #333; }
   .item-text-category {
     text-transform: uppercase;
     font-size: 1.2rem;
