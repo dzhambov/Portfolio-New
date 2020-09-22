@@ -35,10 +35,11 @@ img {
 
 //  Logo
 #logo {
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 40px;
   color: #fff;
   text-transform: uppercase;
+  margin-top: .6rem;
 }
 
 // Main Nav
@@ -229,25 +230,6 @@ img {
       border-left: 3px solid $main-color;
       padding: 0.8rem;
     }
-
-    .award-1 {
-      grid-area: aw1;
-    }
-
-    .award-2 {
-      grid-area: aw2;
-    }
-
-    .award-3 {
-      grid-area: aw3;
-    }
-
-    .award-1 .fas,
-    .award-2 .fas,
-    .award-3 .fas {
-      color: $main-color;
-      margin: 1rem;
-    }
   }
 
   // About B
@@ -270,19 +252,6 @@ img {
 
   // About C
   &-c {
-    .about-logos {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-gap: 2rem;
-
-      img {
-        width: 70%;
-      }
-    }
-  }
-
-  // About D
-  &-d {
     .testimonials {
       display: grid;
       grid-template-columns: repeat(4, 1fr);

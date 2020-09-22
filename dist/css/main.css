@@ -192,10 +192,11 @@ img {
   width: 100%; }
 
 #logo {
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 40px;
   color: #fff;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-top: .6rem; }
 
 #main-nav {
   display: flex;
@@ -309,21 +310,6 @@ img {
   border-left: 3px solid #ffbc00;
   padding: 0.8rem; }
 
-#about-a .award-1 {
-  grid-area: aw1; }
-
-#about-a .award-2 {
-  grid-area: aw2; }
-
-#about-a .award-3 {
-  grid-area: aw3; }
-
-#about-a .award-1 .fas,
-#about-a .award-2 .fas,
-#about-a .award-3 .fas {
-  color: #ffbc00;
-  margin: 1rem; }
-
 #about-b .progress {
   overflow: hidden;
   height: 20px;
@@ -336,27 +322,20 @@ img {
     text-align: center;
     background: #ffbc00; }
 
-#about-c .about-logos {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 2rem; }
-  #about-c .about-logos img {
-    width: 70%; }
-
-#about-d .testimonials {
+#about-c .testimonials {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: .5rem; }
-  #about-d .testimonials ul {
+  #about-c .testimonials ul {
     list-style: none;
     margin-top: 1rem;
     display: flex;
     align-items: center; }
-  #about-d .testimonials p {
+  #about-c .testimonials p {
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: .5rem; }
-  #about-d .testimonials img {
+  #about-c .testimonials img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
