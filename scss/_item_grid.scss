@@ -12,7 +12,7 @@
   overflow: hidden;
 
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     display: block;
     background: inherit;
@@ -49,7 +49,7 @@
   }
 
   &-image:before {
-    content: '';
+    content: "";
     display: block;
     padding-top: 75%;
     overflow: hidden;
@@ -75,7 +75,8 @@
     z-index: 1;
     color: #fff;
     transform: translateY(-40%);
-    transition: opacity 800ms cubic-bezier(0.2, 1, 0.3, 1), transform 800ms cubic-bezier(0.2, 1, 0.3, 1);
+    transition: opacity 800ms cubic-bezier(0.2, 1, 0.3, 1),
+      transform 800ms cubic-bezier(0.2, 1, 0.3, 1);
     transition-delay: 400ms;
   }
 
