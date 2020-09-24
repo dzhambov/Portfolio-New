@@ -246,7 +246,7 @@ img {
 
 #home-b .stats {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); }
+  grid-template-columns: repeat(2, 1fr); }
   #home-b .stats li {
     line-height: 2; }
     #home-b .stats li.stats-title {
@@ -310,7 +310,10 @@ img {
 #about-a .bio {
   grid-area: bio;
   border-left: 3px solid #ffbc00;
-  padding: 0.8rem; }
+  padding: 0.8rem;
+  text-align: left; }
+  #about-a .bio h4 {
+    text-align: center; }
 
 #about-b .progress {
   overflow: hidden;

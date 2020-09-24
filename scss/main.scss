@@ -125,7 +125,7 @@ img {
   &-b {
     .stats {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(2, 1fr);
 
       li {
         line-height: 2;
@@ -229,6 +229,11 @@ img {
       grid-area: bio;
       border-left: 3px solid $main-color;
       padding: 0.8rem;
+      text-align: left;
+
+      h4 {
+        text-align: center;
+      }
     }
   }
 
