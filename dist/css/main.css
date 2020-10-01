@@ -174,7 +174,7 @@ input[class^='btn-']:hover {
   padding: 0; }
 
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   line-height: 1.6;
   background: #fff; }
 
@@ -198,7 +198,7 @@ img {
   height: 40px;
   color: #fff;
   text-transform: uppercase;
-  margin-top: .6rem; }
+  margin-top: 0.6rem; }
 
 #main-nav {
   display: flex;
@@ -301,7 +301,7 @@ img {
 
 #about-a .about-info {
   display: grid;
-  grid-template-areas: 'bioimage bio bio' 'aw1 aw2 aw3';
+  grid-template-areas: "bioimage bio bio" "aw1 aw2 aw3";
   grid-gap: 1.2rem; }
 
 #about-a .bio-image {
@@ -320,7 +320,7 @@ img {
   height: 20px;
   background: #ccc;
   border-radius: 5px;
-  margin-bottom: .6rem; }
+  margin-bottom: 0.6rem; }
   #about-b .progress div {
     height: 100%;
     color: #fff;
@@ -330,7 +330,7 @@ img {
 #about-c .testimonials {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: .5rem; }
+  grid-gap: 0.5rem; }
   #about-c .testimonials ul {
     list-style: none;
     margin-top: 1rem;
@@ -339,7 +339,7 @@ img {
   #about-c .testimonials p {
     border: 1px solid #ccc;
     border-radius: 5px;
-    padding: .5rem; }
+    padding: 0.5rem; }
   #about-c .testimonials img {
     width: 60px;
     height: 60px;
@@ -348,9 +348,10 @@ img {
 
 #contact-a .text-fields {
   display: grid;
-  grid-template-areas: 'name email' 'subject phone' 'message message';
+  grid-template-areas: "name email" "subject phone" "message message";
   grid-gap: 1.2rem;
-  margin-bottom: 1.2rem; }
+  margin-top: 3.5rem;
+  margin-bottom: 1.5rem; }
   #contact-a .text-fields .name-input {
     grid-area: name; }
   #contact-a .text-fields .subject-input {
@@ -366,17 +367,12 @@ img {
     padding: 0.5rem 1rem;
     outline: none; }
 
-#contact-a button[type='submit'] {
-  width: 50%; }
+#contact-a button[type="submit"] {
+  width: 50%;
+  margin-top: 1.5rem;
+  margin-bottom: 5rem; }
 
-#contact-b .contact-info {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  text-align: center; }
-  #contact-b .contact-info a {
-    color: #fff; }
-
-#contact-c h1 {
+#contact-b h1 {
   text-align: center;
   font-size: 4rem; }
 
@@ -443,15 +439,7 @@ img {
     display: none; }
   #contact-a .text-fields {
     grid-template-areas: 'name' 'subject' 'email' 'phone' 'message'; }
-  #contact-b div {
-    margin-bottom: 1rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px #555 solid; }
-    #contact-b div:last-child {
-      border: none;
-      margin-bottom: 0;
-      padding-bottom: 0; }
-  #contact-c h1 {
+  #contact-b h1 {
     font-size: 2rem; }
   #main-footer {
     height: 7rem; }
@@ -467,5 +455,5 @@ img {
 @media (max-height: 330px) {
   #header-home .header-content h1 {
     font-size: 2rem; }
-  #contact-c h1 {
+  #contact-b h1 {
     font-size: 2rem; } }
