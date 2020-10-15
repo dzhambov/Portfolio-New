@@ -111,7 +111,7 @@ img {
       margin-top: 3rem;
       display: grid;
       grid-gap: 1rem;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(3, 1fr);
 
       .fas {
         color: $main-color;
@@ -258,7 +258,7 @@ img {
   &-c {
     .testimonials {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       grid-gap: 0.5rem;
 
       ul {
@@ -272,6 +272,7 @@ img {
         border: 1px solid $medium-color;
         border-radius: 5px;
         padding: 0.5rem;
+        height: 250px;
       }
 
       img {
