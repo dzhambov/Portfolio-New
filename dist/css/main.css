@@ -243,6 +243,8 @@ img {
   #home-a .specials .fas {
     color: #ffbc00;
     padding-bottom: 0.5rem; }
+  #home-a .specials ul {
+    color: #ccc; }
 
 #home-b .stats {
   display: grid;
